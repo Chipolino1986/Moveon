@@ -1,0 +1,189 @@
+           /*Sprites header*/
+
+        
+.twit_header {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    opacity: 1;
+}   
+.twit_header_a {
+    -webkit-appearance: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: .2s;
+}
+.twit_header_a:hover {
+    opacity: 1;
+    z-index: 1;
+}
+.face_header {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.face_header_a {
+    -webkit-appearance: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: .2s;
+}
+.face_header_a:hover {
+    opacity: 1;
+    z-index: 1;
+}  
+.insta_header {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    opacity: 1;
+} 
+.insta_header_a {
+    -webkit-appearance: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: .2s;
+}    
+.insta_header_a:hover {
+    opacity: 1;
+    z-index: 1;
+}
+                
+                
+                /*Button PlayMarket and AppStore*/
+                            
+        
+                           /*APP STORE*/
+                
+                
+.buttons_container_I {
+    display: flex;
+    width: 78%;
+    height: 53px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.app_store {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 53px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+.app_store_a {
+    position: absolute;
+    background: white;
+    display: flex;
+    width: 200px;
+    height: 53px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    color: #A658DB;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0;
+    z-index: 1;
+    transition: .3s;
+}
+.app_store_a:hover {
+    opacity: 1;
+    z-index: 1;
+}
+.apple_white {
+    padding-right: 8px;
+}
+.apple_blue {
+    padding-right: 8px;
+}
+        
+                
+                
+                     /*PLAY MARKET*/
+                
+                
+                
+.play_market {
+    display: flex;
+    width: 200px;
+    height: 53px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 20px;
+}  
+.play_market_a {
+    position: absolute;
+    background: white;
+    display: flex;
+    width: 200px;
+    height: 53px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    color: #A658DB;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0;
+    z-index: 1;
+    transition: .3s;
+    margin-left: 20px;
+}
+.play_market_a:hover {
+    opacity: 1;
+    z-index: 1;
+}  
+.play_white {
+    padding-right: 8px;
+}
+.play_blue {
+    padding-right: 8px;
+} 
+@media screen and (max-width:991px) {
+    .play_market {
+        margin: 35px 0 50px 0;
+    }
+}      
+@media screen and (max-width:991px) {
+    .play_market_a {
+        margin: 35px 0 50px 0;
+    }
+}
